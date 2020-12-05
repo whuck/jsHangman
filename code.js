@@ -107,7 +107,7 @@ function restartGame(e) {
 function pickWord() {
     //grab random number, use dictionary array to select a word
     //update hidden word output variable
-    var i = Math.floor(Math.random()*3);
+    var i = Math.floor(Math.random()*12);
     word = dictionary[i];
     console.log(`pickWord->${word}`);
     for(var i in word) {
