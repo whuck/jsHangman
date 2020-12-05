@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>js Hangman</title>
+    <!-- Bootstrap CSS file -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<form>
+    <div class="form-group">
+        <div><span id="word" class="word"></span></div><br>
+        <div><span id="guesses"></span></div>
+        <div><label for="guess">Guess:&nbsp;</label>
+        <input type="text" maxlength="1" id="guess" class="form-control" >
+
+        <button type="submit" id="btn" class="btn btn-primary">Guess</button></div>
+        <div>Guesses Left:&nbsp;<span id="numLeft"></span></div>
+        <div><span id="winlose"></span></div>
+
+    </div>
+
+</form>
+
+<img id="gallows" src="gallows0.png">
+<!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script src="code.js"></script>
+</body>
+</html>

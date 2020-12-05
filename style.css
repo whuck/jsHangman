@@ -1,0 +1,30 @@
+#guess {
+    display:inline-block;
+    width:50px;
+    vertical-align: middle;
+}
+#word {
+    font-size: 50pt;
+
+}
+#winlose {
+    font-size: 60pt;
+    font-weight: bolder;
+}
+.win {
+    color:green;
+}
+.lose {
+    color:darkred;
+}
+form {
+    margin-left:60px;
+    margin-top:60px;
+    display:inline-block;
+}
+img {
+    display:inline-block;
+    float:top;
+    position:absolute;
+    top:0px;
+}
